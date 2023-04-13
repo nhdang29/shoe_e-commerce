@@ -1,4 +1,3 @@
-import 'package:ecommerce/pages/main/ui/index.dart';
 import 'package:ecommerce/routes/pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
