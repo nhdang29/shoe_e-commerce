@@ -1,4 +1,4 @@
-#NOTE I clone this project from flutter awesome
+# NOTE I clone this project from flutter awesome
  - I update and fix old code
  - source: https://flutterawesome.com/modern-e-commerce-store-built-in-flutter-with-help-of-getx/
 
