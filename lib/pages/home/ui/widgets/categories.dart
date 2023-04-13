@@ -5,7 +5,7 @@ import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import 'package:ecommerce/core/theme/colors.dart';
-import 'package:ecommerce/core/utils/dimesions.dart';
+import 'package:ecommerce/core/utils/dimensions.dart';
 import 'package:ecommerce/pages/home/ui/widgets/my_text.dart';
 
 class Categories extends StatelessWidget {

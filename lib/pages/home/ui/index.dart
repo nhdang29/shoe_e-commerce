@@ -1,6 +1,6 @@
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as badges;
 import 'package:ecommerce/core/theme/colors.dart';
-import 'package:ecommerce/core/utils/dimesions.dart';
+import 'package:ecommerce/core/utils/dimensions.dart';
 import 'package:ecommerce/pages/cart/controllers/cart_controller.dart';
 import 'package:ecommerce/pages/home/ui/widgets/banners.dart';
 import 'package:ecommerce/pages/home/ui/widgets/categories.dart';
@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
                     padding: EdgeInsets.zero,
                     constraints: const BoxConstraints(),
                     onPressed: () => Get.toNamed(Routes.cart),
-                    icon: Badge(
+                    icon: badges.Badge(
                       badgeContent: Obx(
                         () => MyText(
                           text: Get.find<CartController>()

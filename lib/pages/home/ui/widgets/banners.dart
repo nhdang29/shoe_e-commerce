@@ -1,4 +1,4 @@
-import 'package:ecommerce/core/utils/dimesions.dart';
+import 'package:ecommerce/core/utils/dimensions.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/src/widgets/container.dart';

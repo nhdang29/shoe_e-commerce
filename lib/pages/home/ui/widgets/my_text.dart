@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 import 'package:ecommerce/core/theme/colors.dart';
-import 'package:ecommerce/core/utils/dimesions.dart';
+import 'package:ecommerce/core/utils/dimensions.dart';
 
 class MyText extends StatelessWidget {
   const MyText({

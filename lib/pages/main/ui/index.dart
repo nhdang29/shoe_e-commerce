@@ -1,11 +1,7 @@
 import 'package:ecommerce/core/theme/colors.dart';
-import 'package:ecommerce/core/utils/dimesions.dart';
-import 'package:ecommerce/pages/home/ui/index.dart';
+import 'package:ecommerce/core/utils/dimensions.dart';
 import 'package:ecommerce/pages/main/controllers/bottom_navigator_controller.dart';
-import 'package:ecommerce/routes/pages.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 

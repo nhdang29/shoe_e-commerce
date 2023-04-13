@@ -1,13 +1,10 @@
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as badges;
 import 'package:ecommerce/core/theme/colors.dart';
 import 'package:ecommerce/pages/detail/ui/index.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-
-import 'package:ecommerce/core/utils/dimesions.dart';
+import 'package:ecommerce/core/utils/dimensions.dart';
 import 'package:ecommerce/network/models/cart_item.dart';
 import 'package:ecommerce/pages/cart/controllers/cart_controller.dart';
 import 'package:ecommerce/pages/home/ui/widgets/my_text.dart';
@@ -54,7 +51,7 @@ class CartPage extends GetView<CartController> {
                       padding: EdgeInsets.zero,
                       constraints: const BoxConstraints(),
                       onPressed: () => Get.toNamed(Routes.cart),
-                      icon: Badge(
+                      icon: badges.Badge(
                         badgeContent: Obx(
                           () => MyText(
                             text: Get.find<CartController>()

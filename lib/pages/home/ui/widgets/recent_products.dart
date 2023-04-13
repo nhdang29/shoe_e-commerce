@@ -1,5 +1,5 @@
 import 'package:ecommerce/core/theme/colors.dart';
-import 'package:ecommerce/core/utils/dimesions.dart';
+import 'package:ecommerce/core/utils/dimensions.dart';
 import 'package:ecommerce/network/models/shoe.dart';
 import 'package:ecommerce/pages/cart/controllers/cart_controller.dart';
 import 'package:ecommerce/pages/detail/ui/index.dart';
